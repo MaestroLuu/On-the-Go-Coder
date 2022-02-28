@@ -21,7 +21,7 @@ export const putDb = async (content) => {
   console.log(tx);
   const store = tx.objectStore('newNote');
   console.log(store);
-  const request = store.put({Key:id, content});
+  const request = store.put({keyPath: 'id', content });
   console.log(request);
   const result = await request;
   
