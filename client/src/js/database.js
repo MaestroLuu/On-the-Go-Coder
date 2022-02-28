@@ -21,7 +21,7 @@ export const putDb = async (content) => {
   console.log(tx);
   const store = tx.objectStore('newNote');
   console.log(store);
-  const request = store.put({keyPath: 'id', content });
+  const request = store.put({content, id: 1});
   console.log(request);
   const result = await request;
   
@@ -44,7 +44,7 @@ export const getDb = async () => {
     console.error('getDb not implemented');
   } else {
     console.log('result.value', result);
-    return result;;
+    return result[0].content;
   }
 }
 initdb();
