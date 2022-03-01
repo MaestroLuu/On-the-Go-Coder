@@ -33,14 +33,14 @@ export const getDb = async () => {
   const jateDb = await openDB('jate', 1);
   const tx = jateDb.transaction('newNote', 'readonly');
   const store = tx.objectStore('newNote');
-  const request = store.getAll();
+  const request = store.get(1);
   const result = await request;
  
   if (!result) {
     console.error('getDb not implemented');
   } else {
     console.log('result.value', result);
-    return result[0].content;
+    return result.content;
   }
 }
 initdb();
