@@ -4,12 +4,14 @@
 
 This is a simple web application that allows clients to code on their browser and have their text automatically saved and reloaded when they leave the page. In addition, this application also allows installation on devices so that users can utilize the text editor offline. 
 
-## [GitHub Repo!](https://github.com/MaestroLuu/On-the-Go-Coder)
+## [Try it yourself!](https://young-gorge-61076.herokuapp.com/)
+
 
 <img src="./assets/images/splashPage.jpg" alt="Splash Page" width="500"> <br>
 
 ## Installation
 
+### [Github Repo](https://github.com/MaestroLuu/On-the-Go-Coder)
 To utilize this web application, users will need to have NodeJS installed for functionality of the required npm packages. In addition, the following npm packages listed below in the technology section will also need to be installed(the package.json files within the root, client, and server directories have already been preset to install all necessary packages on the command "npm install" within the terminal). The links to the packages have been provided for further documentation on each package utility. 
 
 ## Usage
