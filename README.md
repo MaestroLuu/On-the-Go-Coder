@@ -4,7 +4,7 @@
 
 This is a simple web application that allows clients to code on their browser and have their text automatically saved and reloaded when they leave the page. In addition, this application also allows installation on devices so that users can utilize the text editor offline. 
 
-## [Try it yourself!](https://github.com/MaestroLuu/StoreFront-BackEnd.git)
+## [GitHub Repo!](https://github.com/MaestroLuu/On-the-Go-Coder)
 
 <img src="./assets/images/splashPage.jpg" alt="Splash Page" width="500"> <br>
 
